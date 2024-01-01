@@ -136,6 +136,28 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="package-test">
+                            <div class="title text-center fw-bold fs-1 mb-3">
+                                Popular tests
+                            </div>
+                            <div class="test-list row">
+                                <div class="col-3 mt-2">
+                                    <TestCard></TestCard>
+                                </div>
+                                <div class="col-3 mt-2">
+                                    <TestCard></TestCard>
+                                </div>
+                                <div class="col-3 mt-2">
+                                    <TestCard></TestCard>
+                                </div>
+                                <div class="col-3 mt-2">
+                                    <TestCard></TestCard>
+                                </div>
+                                <div class="col-3 mt-2">
+                                    <TestCard></TestCard>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -143,6 +165,7 @@
     </LayoutMaster>
 </template>
 <script setup>
+import TestCard from '../../../components/base/TestCard.vue';
 import LayoutMaster from '../_layouts/Master.vue';
 import HeaderMain from '../_partials/Header.vue';
 </script>
